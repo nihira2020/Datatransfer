@@ -13,4 +13,9 @@ export class MasterService {
   SaveData(input: any) {
     this.listarray.push(input);
   }
+
+   GetAllEmployee(){
+    
+   }
+
 }
