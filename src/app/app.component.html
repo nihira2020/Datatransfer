@@ -331,6 +331,47 @@
 
 </div>
 
+<div class="row">
+  <div class="col-lg-5 offset-lg-2">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Name</th>
+          <th>email</th>
+        </tr>
+      </thead>
+      <tbody>
+  <tr *ngFor="let item of customerdata">
+    <td>{{item.id}}</td>
+    <td>{{item.name}}</td>
+    <td>{{item.email}}</td>
+  </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-5 offset-lg-2">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Code</th>
+          <th>Name</th>
+          <th>email</th>
+        </tr>
+      </thead>
+      <tbody>
+  <tr *ngFor="let item of empdata">
+    <td>{{item.code}}</td>
+    <td>{{item.name}}</td>
+    <td>{{item.email}}</td>
+  </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
 
 <div class="row">
   <div class="col-lg-5 offset-lg-2">
