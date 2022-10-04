@@ -7,12 +7,14 @@ import { ChildComponent } from './child/child.component';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { EmployeeComponent } from './employee/employee.component';
 import { TokeninterceptorService } from './services/tokeninterceptor.service';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ChildComponent,
-    EmployeeComponent
+    EmployeeComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
