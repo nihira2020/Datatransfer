@@ -24,6 +24,10 @@ export class MasterService {
   GetCustomer(){
     return this.http.get("https://localhost:44308/Customer");
   }
+
+  Getchartinfo(){
+    return this.http.get("http://localhost:3000/sales");
+  }
   
 
 }

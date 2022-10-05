@@ -8,13 +8,15 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { EmployeeComponent } from './employee/employee.component';
 import { TokeninterceptorService } from './services/tokeninterceptor.service';
 import { HomeComponent } from './home/home.component';
+import { MychartComponent } from './mychart/mychart.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ChildComponent,
     EmployeeComponent,
-    HomeComponent
+    HomeComponent,
+    MychartComponent
   ],
   imports: [
     BrowserModule,
