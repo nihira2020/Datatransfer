@@ -9,6 +9,7 @@ import { EmployeeComponent } from './employee/employee.component';
 import { TokeninterceptorService } from './services/tokeninterceptor.service';
 import { HomeComponent } from './home/home.component';
 import { MychartComponent } from './mychart/mychart.component';
+import { MainComponent } from './main/main.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MychartComponent } from './mychart/mychart.component';
     ChildComponent,
     EmployeeComponent,
     HomeComponent,
-    MychartComponent
+    MychartComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,

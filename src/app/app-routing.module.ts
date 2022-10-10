@@ -1,11 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
+import { MainComponent } from './main/main.component';
 import { MychartComponent } from './mychart/mychart.component';
 
 const routes: Routes = [
-  {path:"",component:HomeComponent},
-  {path:"chart",component:MychartComponent}
+  {path:"datatransfer",component:HomeComponent},
+  {path:"chart",component:MychartComponent},
+  {path:"",component:MainComponent}
 ];
 
 @NgModule({

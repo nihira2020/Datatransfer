@@ -29,6 +29,11 @@
       "year": 2020,
       "amount": 7000,
       "colorcode": "orange"
+    },
+    {
+      "year": 2021,
+      "amount": 17000,
+      "colorcode": "pink"
     }
   ]
 }
