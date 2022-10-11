@@ -10,6 +10,12 @@ import { TokeninterceptorService } from './services/tokeninterceptor.service';
 import { HomeComponent } from './home/home.component';
 import { MychartComponent } from './mychart/mychart.component';
 import { MainComponent } from './main/main.component';
+import { MultiformsComponent } from './multiforms/multiforms.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatStepperModule } from '@angular/material/stepper';
+import { MatInputModule } from '@angular/material/input';
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -18,12 +24,18 @@ import { MainComponent } from './main/main.component';
     EmployeeComponent,
     HomeComponent,
     MychartComponent,
-    MainComponent
+    MainComponent,
+    MultiformsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule,
+    BrowserAnimationsModule,
+    MatStepperModule,
+    MatInputModule,
+    MatButtonModule
   ],
   providers: [{provide:HTTP_INTERCEPTORS,useClass:TokeninterceptorService,multi:true}],
   bootstrap: [AppComponent]
